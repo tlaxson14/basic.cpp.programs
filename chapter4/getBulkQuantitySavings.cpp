@@ -10,7 +10,7 @@ the quantity purchased.
 #include <iomanip>
 
 //Initialize global variable
-double const SHINY_TOY = 199.99;
+double const ITEM_COST = 199.99;
 
 /*********************** getNoDiscount function *****************************
 This function will take input for the number of units purchased and use the
@@ -23,7 +23,7 @@ int getNoDiscount(int numBought)
     double discount;
 
     //Calculate discount - none
-    discount = numBought * SHINY_TOY;
+    discount = numBought * ITEM_COST;
 
     //Show total price
     std::cout << "Total price: $" << discount << std::endl;
@@ -59,10 +59,10 @@ double getDiscount20(int numBought)
            total;       //Total amount of purchase
 
     //Calculate discount
-    discount = (numBought * SHINY_TOY) * DISCOUNT_PERCENT;
+    discount = (numBought * ITEM_COST) * DISCOUNT_PERCENT;
 
     //Calculate total
-    total = (numBought * SHINY_TOY) - discount;
+    total = (numBought * ITEM_COST) - discount;
 
     //Show total
     std::cout << "Total cost: $" << std::setw(5) << std::fixed << std::showpoint << std::setprecision(2) << total << std::endl;
@@ -101,10 +101,10 @@ double getDiscount30(int numBought)
     total;                  //Total amount of purchase
 
     //Calculate discount
-    discount = (numBought * SHINY_TOY) * DISCOUNT_PERCENT;
+    discount = (numBought * ITEM_COST) * DISCOUNT_PERCENT;
 
     //Calculate total
-    total = (numBought * SHINY_TOY) - discount;
+    total = (numBought * ITEM_COST) - discount;
 
     //Show total
     std::cout << "Total cost: $" << std::setw(5) << std::fixed << std::showpoint << std::setprecision(2) << total << std::endl;
@@ -142,10 +142,10 @@ double getDiscount40(int numBought)
     total;                  //Total amount of purchase
 
     //Calculate discount
-    discount = (numBought * SHINY_TOY) * DISCOUNT_PERCENT;
+    discount = (numBought * ITEM_COST) * DISCOUNT_PERCENT;
 
     //Calculate total
-    total = (numBought * SHINY_TOY) - discount;
+    total = (numBought * ITEM_COST) - discount;
 
     //Show total
     std::cout << "Total cost: $" << std::setw(5) << std::fixed << std::showpoint << std::setprecision(2) << total << std::endl;
@@ -183,10 +183,10 @@ double getDiscount50(int numBought)
     total;                  //Total amount of purchase
 
     //Calculate discount
-    discount = (numBought * SHINY_TOY) * DISCOUNT_PERCENT;
+    discount = (numBought * ITEM_COST) * DISCOUNT_PERCENT;
 
     //Calculate total
-    total = (numBought * SHINY_TOY) - discount;
+    total = (numBought * ITEM_COST) - discount;
 
     //Show total
     std::cout << "Total cost: $" << std::setw(5) << std::fixed << std::showpoint << std::setprecision(2) << total << std::endl;
