@@ -14,18 +14,19 @@ slower in liquid media, (water) and the slowest in gases. (air)
 /************************* getMenu function **********************
 This function will show all the menu options for available input.
 ******************************************************************/
-void getMenu()
+void getMedia()
 {
-    //Show formatted menu with table format - \t
-    std::cout << "\n\t Medium" << std::endl;
+    //Show formatted menu for medium and speed in table format - \t
+    std::cout << "\n\t Medium " << "\t Speed (ft/sec)" << std::endl;
 
-    std::cout << "\t --------" << std::endl;
+    std::cout << "\t ------------------------------" << std::endl;
 
-    std::cout << "\t 1. Air" << std::endl;
+    //Line up table format to see media with speed in ft/s
+    std::cout << "\t 1. Air " << " \t  1100" << std::endl;
 
-    std::cout << "\t 2. Water" <<  std::endl;
+    std::cout << "\t 2. Water" << "\t  4900" <<  std::endl;
 
-    std::cout << "\t 3. Steel" <<  std::endl;
+    std::cout << "\t 3. Steel" << "\t  16400" << std::endl;
 }
 
 /********************* getGasMedium function ***********************
@@ -123,7 +124,7 @@ int main()
     << "the sound wave will take to travel a given distance." << std::endl;
 
     //Call function to show menu
-    getMenu();
+    getMedia();
 
     //Get menu selection + input validation
     std::cin >> medium;
