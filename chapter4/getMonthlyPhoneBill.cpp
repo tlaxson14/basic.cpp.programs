@@ -109,9 +109,10 @@ double getMinutes()
 }
 
 
-/************************ getMonthlyBill_A ***************************
-This function will calculate and show the monthly bill for Package A.
-**********************************************************************/
+/************************ getMonthlyBill_A ******************************
+This function will calculate and show the monthly bill for Package A and
+the savings for each of the different packages if overage fees apply.
+*************************************************************************/
 void getMonthlyBill_A(double minutes)
 {
     double totalSavePrice_B = 0.0,      //Savings on Package B
@@ -214,9 +215,10 @@ void getMonthlyBill_A(double minutes)
         std::cout << "Please re-run the program and enter a valid number." << std::endl;
 }
 
-/************************ getMonthlyBill_B ***************************
- This function will calculate and show the monthly bill for Package B.
- **********************************************************************/
+/************************ getMonthlyBill_B ******************************
+This function will calculate and show the monthly bill for Package B and
+the savings for switching to Package C if overage fees apply.
+*************************************************************************/
 void getMonthlyBill_B(double minutes)
 {
     double totalSavePrice_C = 0.0,
@@ -288,8 +290,8 @@ void getMonthlyBill_C(double minutes)
 
 /******************* getMonthlyBillTotal function ******************
 This function will take input for the package type to calculate and
-show the total cost of the monthly bill including overage fees for
-packages A and B.
+show the total cost of the monthly bill including overage fees and 
+minutes for packages A, B, and C.
 ********************************************************************/
 void getMonthlyBillTotal(char packageType, int minutesUsed)
 {
