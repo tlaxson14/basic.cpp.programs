@@ -32,7 +32,7 @@ int main()
     for (int count = 1; count <= number; count++)
     {
         //Calculate sum
-        sum = sum + count;
+        sum += count;
     }
 
     //Show sum
