@@ -2,7 +2,9 @@
 This program will take input for the speed in MPH
 and the amount of time traveled in hours. The output
 of the program will use a loop to calculate how much
-distance was covered for every hour of the trip.
+distance was covered for every hour of the trip. The
+output will display two columns for hour and distance
+traveled to show the product of speed and time.
 *****************************************************/
 
 #include<iostream>
@@ -14,9 +16,9 @@ using std::setw;
 
 int main()
 {
-  double speed,
-         distance,
-         time;
+  int speed,       //Speed of travel
+      distance,    //Distance traveled
+      time;        //Time of trip in hour
 
   //Get speed in MPH
   cout << "Enter speed in MPH:" << endl;
