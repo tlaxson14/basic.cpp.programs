@@ -54,8 +54,10 @@ int main()
   //Calculate distance
   distance = speed * hour;
 
+  //Show hour and distance formatted by category
   cout << setw(2) << hour << setw(14) << distance << endl;
 
+  //Incrementer
   hour++;
 }
 
