@@ -1,6 +1,7 @@
 /***********************************************************
-This program is a modified program to show the range (0-30)
-of degrees Celsius and the corresponding degrees Fahrenheit.
+This program is a modified program to show the conversions
+of degrees Celsius and the corresponding degrees Fahrenheit
+beginning at 0 degrees Fahrenheit up until the input number.
 ************************************************************/
 
 #include<iostream>
@@ -29,7 +30,7 @@ int main()
   //Show conversion table with initializer temp = 0
   for(int temp = 0; temp <= fahr; temp++)
   {
-    //Calculate degrees Celsius from Fahrenheit 
+    //Calculate degrees Celsius from Fahrenheit
     cels = (5/9.0) * (temp - 32);
 
     //Show degrees Celsius from 0 to fahr input
