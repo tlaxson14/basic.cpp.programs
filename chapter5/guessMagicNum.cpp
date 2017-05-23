@@ -19,8 +19,8 @@ using std::endl;
 
 int main()
 {
-  int magicNum,         //Magic number to be randomized for guessing
-      guess;            //Guess from user-input
+  int magicNum,      //Magic number to be randomized for guessing
+      guess;         //Guess from user-input
 
   //Initialize with time to seed value for srand
   magicNum = time(0);
@@ -36,8 +36,8 @@ int main()
   //Guess count accumulator: value = 1 bec of line 37 input
   int guessCount = 1;
 
-  //Condition when guess is not equal to magic number
-  while(guess != magicNum)
+  //Do-While (Condition) - when guess is not equal to magic number
+  do
   {
     if(guess < magicNum)   //Guess is lower than magic number
     {
@@ -65,6 +65,7 @@ int main()
       guessCount += 1;
     }
   }
+  while(guess != magicNum);
 
   //Condition if guess is equal to magic number 1 - 100
   if(guess == magicNum)
