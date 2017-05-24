@@ -33,6 +33,13 @@ int main()
   cout << "Please enter your guess: " << endl;
   cin >> guess;
 
+  //Input validation for guess
+  while(guess < 0 || guess > 100)
+  {
+    cout << "Please enter a valid number between 1-100." << endl;
+    cin >> guess;
+  }
+    
   //Guess count accumulator: value = 1 bec of line 37 input
   int guessCount = 1;
 
