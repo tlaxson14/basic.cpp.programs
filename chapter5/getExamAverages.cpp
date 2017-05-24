@@ -9,11 +9,15 @@ use for the "to upper" function.
 
 #include <iostream>
 #include <iomanip>
+#include <cctype>     //Library to use 'toupper' function
 
 //Namespaces used
 using std::cout;
 using std::cin;
 using std::endl;
+using std::fixed;
+using std::showpoint;
+using std::setprecision;
 
 int main()
 {
@@ -42,7 +46,8 @@ int main()
     examAverages = (examScore1 + examScore2 + examScore3) / 3.0;
 
     //Show average exam score
-    cout << "Exam average: " << examAverages << endl;
+    cout << "Exam average: "
+    << fixed << showpoint << setprecision(2) << examAverages << endl;
 
     //Ask if user would like to enter another set of exam scores
     cout << "Would you like to enter another set? (Y/N)" << endl;
