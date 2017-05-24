@@ -53,7 +53,7 @@ int main()
     cout << "Would you like to enter another set? (Y/N)" << endl;
     cin >> repeat;
   }
-  //Use "to-upper" function in case of 'y' entry on lines 48-49
+  //Use "to-upper" function in case of 'y' entry on lines 53-54
   while (toupper(repeat) == 'Y');
 
   return 0;
