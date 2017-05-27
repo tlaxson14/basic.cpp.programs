@@ -18,7 +18,6 @@ S*
 ****************************************************/
 
 #include<iostream>
-#include<iomanip>
 
 //Namespaces
 using std::cout;
