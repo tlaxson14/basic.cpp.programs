@@ -40,6 +40,7 @@ int main()
     //Loop for 3 asterisks
     for(int j = 0; j < 3; j++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -52,6 +53,7 @@ int main()
     //Loop for 5 asterisks
     for(int k = 0; k < 5; k++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -64,6 +66,7 @@ int main()
     //Loop for 7 asterisks
     for(int l = 0; l < 7; l++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -76,6 +79,7 @@ int main()
     //Loop for 9 asterisks
     for(int m = 0; m < 9; m++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -88,6 +92,7 @@ int main()
     //Loop for 7 asterisks
     for(int l = 0; l < 7; l++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -100,6 +105,7 @@ int main()
     //Loop for 5 asterisks
     for(int k = 0; k < 5; k++)
     {
+      //Show asterisk
       cout << "*";
     }
 
@@ -112,6 +118,7 @@ int main()
     //Loop for 3 asterisks
     for(int j = 0; j < 3; j++)
     {
+      //Show asterisk
       cout << "*";
     }
 
