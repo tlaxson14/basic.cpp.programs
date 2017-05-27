@@ -126,6 +126,7 @@ void getSubtraction()
     //Calculate sum of randomly generated numbers
     minus = randInt1 - randInt2;
 
+    //Random number validation
     if((randInt1 > randInt2) && (minus > 0))
     {
       break;
@@ -257,6 +258,7 @@ void getDivision()
     //Calculate sum of randomly generated numbers
     divisor = randInt1 / randInt2;
 
+    //Random number validation 
     if((randInt1 % randInt2 == 0) && (randInt1 > randInt2))
     {
       break;
