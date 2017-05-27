@@ -1,7 +1,10 @@
 /********************************************************************************
- This program will randomly select two integers (10-50) and wait for the user to
- enter a value. If incorrect, the program allows three attempts before displaying
- the correct answer.
+ This program will take previous programs from chapter 3 and 4 material and
+ show a menu allowing the user to select one of the 5 available options. Based on
+ the input, a separate output will appear with the chosen mathematical operation
+ using a set of two randomly generated integers. The user will be allowed three
+ attempts to correctly guess the answer before displaying the answer. Also, this
+ program will run endlessly until the user enters the designated sentinel value. 
  ********************************************************************************/
 
 #include <iostream>
