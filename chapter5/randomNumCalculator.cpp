@@ -4,7 +4,7 @@
  the input, a separate output will appear with the chosen mathematical operation
  using a set of two randomly generated integers. The user will be allowed three
  attempts to correctly guess the answer before displaying the answer. Also, this
- program will run endlessly until the user enters the designated sentinel value. 
+ program will run endlessly until the user enters the designated sentinel value.
  ********************************************************************************/
 
 #include <iostream>
@@ -238,8 +238,8 @@ void getDivision()
 {
   int randInt1,     //First randomly generated integer
       randInt2,     //Second randomly generated integer
-      divisor,      //Product of randInt1 * randInt2
-      answer;       //User input for product
+      divisor,      //Division of randInt1 / randInt2
+      answer;       //User input for division answer
 
   //Use time function to seed values for srand function
   randInt1 = static_cast<unsigned int>(time(0));
