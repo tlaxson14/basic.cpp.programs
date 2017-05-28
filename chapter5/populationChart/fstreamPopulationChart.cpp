@@ -20,7 +20,7 @@ int main()
       year;                       //Time (Range 100 years)
 
   //Open the input file using location of saved text file
-  inputFilePeople.open("basic.cpp.programs/chapter5/People.txt");
+  inputFilePeople.open("./basic.cpp.programs/chapter5/populationChart/People.txt");
 
   //Show Organization of display variables
   cout << "Year" << " Population\n"
