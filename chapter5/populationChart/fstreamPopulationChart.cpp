@@ -42,7 +42,7 @@ int main()
     cout << year << " ";
 
     //Show '*' for number of people using 1000's place to measure
-    for (int i = 0; i <= population/1000; ++i)
+    for (int i = 0; i <= (population / 1000); ++i)
     {
       cout << "*";
     }
