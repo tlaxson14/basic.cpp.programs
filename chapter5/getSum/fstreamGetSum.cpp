@@ -16,6 +16,7 @@ using std::cin;
 using std::endl;
 using std::ifstream;
 using std::setw;
+using std::right;
 
 int main()
 {
@@ -47,7 +48,7 @@ int main()
     inputFileNumbers >> number;
 
     //Format output for values in numbers.txt file
-    cout << "No." << i << ": " << setw(6) << std::right << number << endl;
+    cout << "No." << i << ": " << setw(6) << right << number << endl;
 
     //Calculate sum
     sum = sum + number;
