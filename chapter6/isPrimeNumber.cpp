@@ -31,11 +31,11 @@ int main()
   cin >> number;
 
   //Input validation for unsigned long long int
-  while(number <= 0)
+  while(number <= 0 || number > 100000000000)
   {
     //Show error message
     cout << "You did not enter a valid number. \n";
-    cout << "Please enter a number greater than 0." << endl;
+    cout << "Please enter a number greater than 0 and less than 100 billion." << endl;
     cin >> number;
   }
 
@@ -74,8 +74,11 @@ bool isPrimeNum(int number)
       //Assign isPrimeNum to boolean value false for prime number
       isPrimeNum = false;
 
-      //Show all numbers the input is divisible by
+      //Show number the input is divisible by
       cout << "The number is divisible by " << i << "." << endl;
+
+      //Terminate loop
+      break;
     }
     else
       continue;
