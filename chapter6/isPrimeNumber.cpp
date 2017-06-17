@@ -18,7 +18,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-//Functin prototype
+//Function prototype
 bool isPrimeNum(int number);
 
 int main()
