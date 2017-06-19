@@ -43,7 +43,7 @@ int main()
     double serviceCharges = 0.0,                //Service fees for lab tests, screenings, equipment use, etc.
            medicationCharges = 0.0;             //Medication fees for patient
 
-    //Input validation for patient type
+    //Do-while loop for choice input validation
     do
     {
         //Get info for inpatient or outpatient
@@ -51,10 +51,10 @@ int main()
         cout << "1.Inpatient \n2.Outpatient" << endl;
         cin >> choice;
 
-        //Conditions for inpatient selection
+        //Switch based on choice input
         switch(choice)
         {
-                //Condition for inpatient
+            //Condition for inpatient
             case 1:
             {
                 //Get inpatient days using function
@@ -72,7 +72,7 @@ int main()
                 //Terminate
                 break;
             }
-                //Condition for outpatient
+            //Condition for outpatient
             case 2:
             {
                 //Get servide fees using function
@@ -89,6 +89,7 @@ int main()
             }
         }
     }
+    //Input validation - user may only select '1' for inpatient or '2' for outpatient
     while(choice != 1 && choice != 2);
 
     return 0;
