@@ -1,8 +1,12 @@
-/****************************************************************************
- This simple program will use a class called Circle with one private member
- variable, or attribute, and two public member functions to set the radius of
- a circle and calculate the radius based on the user input.
- *****************************************************************************/
+/*******************************************************************************
+This simple program will use a class called Circle with one private member
+variable, or attribute, and two public member functions to set the radius of
+a circle and calculate the radius based on the user input. In this program the
+accessor aka "getters or get functions" will only use the member variable for
+radius whereas the mutator aka "setters or set functions" will modify the
+contents of the private member variable by storing or changing the value within
+the member function.
+*******************************************************************************/
 
 #include<iostream>
 #include<iomanip>
