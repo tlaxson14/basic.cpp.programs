@@ -6,9 +6,9 @@
  entered in various formats. It will have multiple input validations for month
  and the days of each month to ensure the appropriate number of days are entered.
  The three different date output formats will be:
-        1. Month/Day/Year
-        2. Month Day, Year
-        3. Day Month Year
+        1. Month/Day/Year   (e.g. 1/1/2001)
+        2. Month Day, Year  (e.g. January 1, 2001)
+        3. Day Month Year   (e.g. 1 January 2001)
  ********************************************************************************/
 
 #include<iostream>
@@ -74,7 +74,7 @@ int main()
     Date showDate;          //Class member object
     int monthOfYear = 0;    //Month
     int dayOfMonth = 0;     //Day
-    int year = 0;         //Year
+    int year = 0;           //Year
     string m;               //String variable for month
 
     //Get month
@@ -214,7 +214,7 @@ int getJanuary()
     //Month of January input validation
     while(d_day < 1 || d_day > 30)
     {
-        cout << "The month of January contains 30 days. Please enter a valid day of the month for January" << endl;
+        cout << "The month of January contains 30 days. Please enter a valid day of the month for January." << endl;
         cin >> d_day;
     }
 
