@@ -12,6 +12,7 @@
  ********************************************************************************/
 
 #include<iostream>
+#include<string>
 
 //Namespaces
 using std::cin;
