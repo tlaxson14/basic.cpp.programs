@@ -44,12 +44,9 @@ second value and the second value entered now the first value.
 void swap(int *x, int *y){
     int swapNum;
 
-    //Assign first value to second value
+    //Assign first value to second value and vice-versa
     swapNum = *x;
     *x = *y;
-
-    //Assign second value to first value
-    *y = *x;
     *y = swapNum;
 
     //Show newly swapped values using dereferenced pointers
